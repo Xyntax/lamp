@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" charset="UTF-8">
+    <title>表单的应用</title>
+</head>
+<body>
+    <table border="1" width="500" align="center">
+
+        <!--action属性
+        表示数据提交到哪-->
+        <!--name属性
+        为了以后js对form进行操作-->
+        <!--target属性
+        提交表单后跳转到新的页面-->
+        <!--title属性
+        显示提示,类似图片的alt属性,任何标签都可用-->
+        <!--enctype属性
+        指定编码方式
+        默认(不写时)为 application/x-www-form-urlencoded
+        当文件上传时使用 multipart/form-data -->
+
+        <!--GET
+        提交方式默认get,get提交url长度不能超过8192个字符
+        不能传送非asc码的字符,不能传文章图片等文件
+        -->
+        <!--POST
+        传递大小在php配置文件中设置-->
+        <form name="frm" action="login.php">
+            <caption>表单的应用</caption>
+            <tr>
+                <th>文本域</th>
+                <td>
+                    <!--text表示可输入的文本域-->
+                    <!--name必须，name和输入的值构成key-value对，方便接收表单者使用-->
+
+                    <!--size 输入框宽度-->
+                    <!--maxlength 限制输入字符数-->
+                    <!--readonly 内容只读-->
+                    <!--value 预设的字符,用于"修改文章"-->
+                    <input type="text" name="username">
+                </td>
+            </tr>
+            <tr>
+                <th>密码域</th>
+                <td>
+                    <!--password表示密码的黑色圆点-->
+                    <input type="password" name="password">
+                </td>
+            </tr>
+
+            <tr>
+                <th>复选框</th>
+                <td>
+                    <!--name="del[]" 以数组形式定义,方便php后面取值和处理
+                    GET结果URL: del[]=on&del[]=on-->
+                    <!--checked 默认为选中状态-->
+                    aa<input type="checkbox" checked name="del[]">
+                    bb<input type="checkbox" name="del[]">
+                    cc<input type="checkbox" name="del[]">
+                    dd<input type="checkbox" name="del[]">
+                    ee<input type="checkbox" name="del[]">
+                </td>
+            </tr>
+
+            <tr>
+                <th>单选框1</th>
+                <td>
+                    <!-- 在整个表单中name值相同的单选框只有一个能够被选择-->
+                    aa<input type="radio" checked name="aaa">
+                    bb<input type="radio" name="aaa">
+                </td>
+            </tr>
+            <tr>
+                <th>单选框2</th>
+                <td>
+                    cc<input type="radio" name="aaa">
+                    dd<input type="radio" name="aaa">
+                    ee<input type="radio" name="aaa">
+                </td>
+            </tr>
+
+            <!--传递不需要与用户交互的数据-->
+            <input type="hidden" name="id" value="100">
+
+            <tr>
+                <th>文件上传</th>
+                <td>
+                    <!--注意2点:
+                    1 POST
+                    2 multipart/form-data
+                    -->
+                    <input type="file" name="aaa">
+                </td>
+            </tr>
+
+
+            <tr>
+                <th>下拉列表</th>
+                <td>
+                    <!--如果有value,即传递 gn=2-->
+                    <!--如果没有,则传递 gn=111-->
+
+                    <!--mutiple 多选-->
+                    <!--selected 默认选中-->
+                    <select name="gn" size="5" multiple>
+                        <option>111</option>
+                        <option>222</option>
+                        <option value="2" selected>222</option>
+                        <option value="3">222</option>
+                        <option value="4">222</option>
+                        <option value="5">222</option>
+                        <option value="6">222</option>
+                        <option value="7">222</option>
+                        <option value="8">222</option>
+                        <option value="9">222</option>
+
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <th>多行文本</th>
+                <td>
+                    <!--6行40列-->
+                    <textarea cols="40" rows="6" name="message">请输入...</textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <!--注意for里面是id-->
+                <th><label for="testlabel" accesskey="r">快捷键</label>(<u>r</u>)</th>
+                <td>
+                    <input id="testlabel" type="text" name="aaa2">
+                </td>
+            </tr>
+
+            <tr>
+                <!--占两行,居中-->
+                <td colspan="2" align="center">
+                    <!--submit 提交(自动完成)-->
+                    <input type="submit" name="sub" value="提交">
+                    <!--图片模式的按钮
+                    提交项里面增加了鼠标点击的位置 sub1.x=0&sub1.y=0 -->
+                    <input type="image" name="sub1" src="hello.jpg">
+                    <!--reset 重置(自动完成)
+                    重置不是清空输入框,而是让'form标签下的所有输入框'回到默认的value值-->
+                    <input type="reset" name="res">
+                    <!--清空动作需要在button绑定js完成-->
+                    <input type="button" value="清空" onclick="document.frm.username.value=''">
+                </td>
+            </tr>
+
+
+
+
+        </form>
+
+    </table>
+</body>
+</html>
+
+<!--
+结果URL:
+http://localhost:63342/htdocs/lamp/09_HTML_form/login.php
+?username=aaaaa&password=aaaa&sub=%E6%8F%90%E4%BA%A4%E6%9F%A5%E8%AF%A2-->
