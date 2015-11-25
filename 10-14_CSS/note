@@ -1,0 +1,121 @@
+#css基础
+##四种模式
+ 1. 内联式(当前标签):HTML中混在一起
+ 2. 嵌入式(当前页面):<style></style> 写在head里面,只需要一个
+ 3. 外部样式表(多个页面):外部定义,HTML中通过<link>使用
+    <link rel="stylesheet" type="text/css" href="/a.css" />
+ 4. 输入样式表(import机制):将样式表输入到另一个css或者<style>中
+    @import url(one.css);
+    <style>
+        p {
+            backgroune-color:green;
+        }
+        @import url(import/one.css);
+    </style>
+##加载顺序
+内联最高,然后看加载顺序
+
+##样式选择器:选择样式作用范围.
+ - p:            HTML标签(匹配标签)
+ - p.cla1        元素名.类名(匹配标签和class名) <p class="cla1">
+ - .cla1         .类名(只匹配class名)
+                 同一个元素可以使用多个类名<p class="cla1 cla2 cla3">
+ - #id1          #id(匹配id名) <p id="id1">
+                 id同时结合js,**在一个页面中id值要唯一**
+ - a,.two,h1,#one    组合样式选择器(逗号隔开,匹配一个就OK,跟分开写一样)
+ - div #one .two p   关联样式选择器(空格隔开,按顺序从左到右依次匹配)
+    <div>
+        <div id="one">
+            <h2 class="two">
+                <p>这个样式改变</p>
+            </h2>
+        </div>
+    </div>
+ - a:link        标签.[类名]:伪元素 (匹配标签的状态):为同一个元素在不同状态下提供不同的样式
+                 目前只a和p标签这么用?!
+                 伪元素可以和以上规则配合使用.
+
+##继承
+<div><p></p></div> p会继承外层div标签的规则
+##优先级
+关联>ID>Class>标签
+
+
+#DIV+CSS 为了样式!
+
+##div(定义大块)
+默认换行
+
+##span(定义小块)
+默认不换行
+
+##盒子模型
+宽度:width
+高度:height
+内边距(填充):padding
+边框:border
+边界:margin
+方位:left right top bottom
+
+##定位属性
+###绝对定位-居中
+p {
+    width:300px;
+    height:200px;
+    background:red;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-150px; //由于位置是左上角的定点计算,减去长度的一半
+    margin-top:-100px; //减去宽度的一半
+}
+
+###相对定位-鼠标经过时有下击感
+a:hover {
+ position:relative; //相对原来的位置
+ top:1px;
+ left:1px;
+}
+
+##显示
+###z-index图层概念
+值越大越在上层
+
+###display 区块是否显示
+block 以块状显示(后面自带换行)
+inline 内联显示
+none 隐藏
+
+###overflow
+解决超出的部分
+
+###visibility
+继承
+
+##浮动
+###float 浮动
+使用float的时候,这个区块脱离了文档流(不占地方了)
+可以理解为不带float的都在图层1中,带float的都在图层2中
+现在float那个又跑出去建了一个图层,两个层也许会产生覆盖.
+
+如果多个块同时float:left 会在图层2中从左往右堆积,
+如果右边地方不够,会自动向下换行.
+如果区块高度不同,区块可以被卡住.
+######@@@@   |
+###1##@2@@   |
+######@@@@   |
+######%%%%(4)|
+      %3%%( )|
+      %%%%   |
+
+###clear 清除浮动
+left right both none
+为了解决换行特费解问题
+设置区块的那条边不与其他float区块相连
+一般单独写出css，然后对float块添加div标签和样式
+.clear{
+ clear:both;//左右两边均不接触其他区块（如果接触就换行）
+}
+<div class="clear">
+    <p>...</p>
+</div>

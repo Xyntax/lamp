@@ -1,0 +1,15 @@
+<?php　变量
+	isset($a); //判断变量是否存在
+	unset($a); //释放变量
+	//变量区分大小写，其它不区分
+	##8种类型
+	int integer
+	bool boolean
+	float double real
+	string
+	array
+	object
+	resourse
+	null
+	//使用Var_dump()查看类型
+?>
