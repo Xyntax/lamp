@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e618ccf6-293a-42c1-b942-1cc817d54a0d" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/35_PHP_arrayTraversal/for.php" afterPath="$PROJECT_DIR$/32_PHP_arrayTraversal/for.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/35_PHP_arrayTraversal/foreach+table.php" afterPath="$PROJECT_DIR$/32_PHP_arrayTraversal/foreach+table.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/35_PHP_arrayTraversal/foreach.php" afterPath="$PROJECT_DIR$/32_PHP_arrayTraversal/foreach.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/35_PHP_arrayTraversal/list+explode.php" afterPath="$PROJECT_DIR$/32_PHP_arrayTraversal/list+explode.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/35_PHP_arrayTraversal/list.php" afterPath="$PROJECT_DIR$/32_PHP_arrayTraversal/list.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/35_PHP_arrayTraversal/while+each.php" afterPath="$PROJECT_DIR$/32_PHP_arrayTraversal/while+each.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lamp.iws" />
@@ -24,61 +30,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="for.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/35_PHP_arrayTraversal/for.php">
+      <file leaf-file-name="_POST+form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/33_PHP_superGlobalArray/_POST+form.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="2" />
+              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="foreach.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/35_PHP_arrayTraversal/foreach.php">
+      <file leaf-file-name="note" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/33_PHP_superGlobalArray/note">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.83774835">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="foreach+table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/35_PHP_arrayTraversal/foreach+table.php">
+      <file leaf-file-name="_GET+form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/33_PHP_superGlobalArray/_GET+form.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="while+each.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/35_PHP_arrayTraversal/while+each.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/35_PHP_arrayTraversal/list.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list+explode.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/35_PHP_arrayTraversal/list+explode.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25496688">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -109,6 +85,12 @@
         <option value="$PROJECT_DIR$/35_PHP_arrayTraversal/while+each.php" />
         <option value="$PROJECT_DIR$/35_PHP_arrayTraversal/list.php" />
         <option value="$PROJECT_DIR$/35_PHP_arrayTraversal/list+explode.php" />
+        <option value="$PROJECT_DIR$/33_PHP_superGlobalArray/_GET.php" />
+        <option value="$PROJECT_DIR$/33_PHP_superGlobalArray/_GET+formAction.php" />
+        <option value="$PROJECT_DIR$/33_PHP_superGlobalArray/_GET+form.php" />
+        <option value="$PROJECT_DIR$/33_PHP_superGlobalArray/_POST+form.php" />
+        <option value="$PROJECT_DIR$/33_PHP_superGlobalArray/note" />
+        <option value="$PROJECT_DIR$/33_PHP_superGlobalArray/note.php" />
       </list>
     </option>
   </component>
@@ -176,35 +158,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="35_PHP_arrayTraversal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="31_PHP_array" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="22_PHP_var" />
+              <option name="myItemId" value="33_PHP_superGlobalArray" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -480,12 +434,12 @@
       <updated>1448414465599</updated>
       <workItem from="1448414467915" duration="10000" />
       <workItem from="1448418834459" duration="3796000" />
-      <workItem from="1448550907291" duration="3427000" />
+      <workItem from="1448550907291" duration="5524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7233000" />
+    <option name="totallyTimeSpent" value="9330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="27" width="1370" height="743" extended-state="6" />
@@ -580,7 +534,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/35_PHP_arrayTraversal/for.php">
+    <entry file="file://$PROJECT_DIR$/32_PHP_arrayTraversal/for.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="2" />
@@ -588,42 +542,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/35_PHP_arrayTraversal/foreach.php">
+    <entry file="file://$PROJECT_DIR$/32_PHP_arrayTraversal/foreach+table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/35_PHP_arrayTraversal/foreach+table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.8178808">
           <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/35_PHP_arrayTraversal/while+each.php">
+    <entry file="file://$PROJECT_DIR$/32_PHP_arrayTraversal/while+each.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.54635763">
           <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/35_PHP_arrayTraversal/list.php">
+    <entry file="file://$PROJECT_DIR$/32_PHP_arrayTraversal/list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.6721854">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/35_PHP_arrayTraversal/list+explode.php">
+    <entry file="file://$PROJECT_DIR$/32_PHP_arrayTraversal/list+explode.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25496688">
           <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/33_PHP_superGlobalArray/_GET.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1821192">
+          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/32_PHP_arrayTraversal/foreach.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7450331">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/33_PHP_superGlobalArray/_POST+form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/33_PHP_superGlobalArray/_GET+form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/33_PHP_superGlobalArray/note">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83774835">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
